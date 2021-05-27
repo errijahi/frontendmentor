@@ -1,0 +1,189 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.box {
+    display: block;
+    position: absolute;
+    background-color: hsl(244, 38%, 16%);
+    width: 75vw;
+    height: 60vh;
+    top: 50%;
+    left: 50%;
+    margin-left: -37vw;
+    margin-top: -28vh;
+    border-radius: 0.5vw;
+    min-height: 300px;
+}
+
+.image {
+    float: right;
+    width: 40vw;
+    height: 60vh;
+    border-top-right-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+    padding-left: 5vw;
+    min-height: 300px;
+}
+
+.overlay {
+    display: block;
+    position: absolute;
+    margin-left: 35vw;
+    height: 60vh;
+    width: 40vw;
+    min-height: 300px;
+    background-color: rgba(67, 1, 107, 0.6);
+}
+
+.text0 {
+    display: block;
+    position: relative;
+    font-size: 2.5vw;
+    text-align: center;
+    margin-top: 10vh;
+    margin-left: 2vw;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.text1 {
+    color: hsl(277, 64%, 61%);
+}
+
+.text2 {
+    display: block;
+    position: relative;
+    font-size: 1vw;
+    margin-left: 6vw;
+    padding-right: 45vw;
+    margin-top: 2vh;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.text3 {
+    display: block;
+    position: absolute;
+    font-size: 2vw;
+    margin-left: 6vw;
+    margin-top: 15vh;
+    word-spacing: 3vw;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.text5 {
+    display: block;
+    position: absolute;
+    font-size: 2vw;
+    margin-left: 15vw;
+    margin-top: 15vh;
+    word-spacing: 3vw;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.text6 {
+    display: block;
+    position: ab;
+    font-size: 2vw;
+    margin-left: 23vw;
+    margin-top: 15vh;
+    word-spacing: 3vw;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.text4 {
+    position: absolute;
+    font-size: 1vw;
+    color: hsla(0, 0%, 100%, 0.6);
+    margin-left: 6vw;
+    word-spacing: 3vw;
+}
+
+.text7 {
+    position: absolute;
+    font-size: 1vw;
+    color: hsla(0, 0%, 100%, 0.6);
+    margin-left: 15vw;
+    word-spacing: 3vw;
+}
+
+.text8 {
+    position: absolute;
+    font-size: 1vw;
+    color: hsla(0, 0%, 100%, 0.6);
+    margin-left: 23vw;
+    word-spacing: 3vw;
+}
+
+@media screen and (max-width: 700px) {
+    .box {
+        height: 100vh;
+        margin-top: -46vh;
+        width: 80vw;
+        left: 48%;
+        max-height: 900px;
+    }
+    .image {
+        background-image: url(./images/image-header-mobile.jpg);
+        padding-left: 0vw;
+        height: 1vh;
+        width: 80vw;
+    }
+    .overlay {
+        width: 80vw;
+        height: 1vh;
+        margin-left: 0vw;
+    }
+    .text0 {
+        font-size: 6vw;
+        margin-top: 35vh;
+        padding-right: 15vw;
+        margin-left: 15vw;
+    }
+    .text2 {
+        font-size: 3vw;
+        padding-right: 8vw;
+        margin-left: 10vw;
+    }
+    .text3 {
+        font-size: 5vw;
+        margin-top: 0vh;
+        margin-left: 35vw;
+        margin-top: 5vh;
+    }
+    .text5 {
+        font-size: 5vw;
+        margin-top: 5vh;
+        margin-left: 35vw;
+        margin-top: 15vh;
+    }
+    .text6 {
+        font-size: 5vw;
+        margin-top: 10vh;
+        margin-left: 35vw;
+        margin-top: 25vh;
+    }
+    .text4 {
+        position: absolute;
+        font-size: 3vw;
+        margin-top: -20vh;
+        margin-left: 35vw;
+    }
+    .text7 {
+        position: absolute;
+        font-size: 3vw;
+        margin-top: -10vh;
+        margin-left: 35vw;
+    }
+    .text8 {
+        position: absolute;
+        font-size: 3vw;
+        margin-top: 0vh;
+        margin-left: 35vw;
+    }
+}
