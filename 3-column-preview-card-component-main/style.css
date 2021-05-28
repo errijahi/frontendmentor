@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.box {
+    display: block;
+    position: absolute;
+    background-color: crimson;
+    color: white;
+    width: 50vw;
+    height: 60vh;
+    top: 50%;
+    left: 50%;
+    margin-left: -28vw;
+    margin-top: -28vh;
+    border-radius: 0.5vw;
+    min-height: 450px;
+}
+
+.part1 {
+    display: block;
+    position: fixed;
+    background-color: hsl(31, 77%, 52%);
+    width: 18vw;
+    height: 60vh;
+    min-height: 465px;
+    border-top-left-radius: 0.5vw;
+    border-bottom-left-radius: 0.5vw;
+}
+
+.part1>span {
+    font-family: 'Lexend Deca', sans-serif;
+    display: block;
+    margin-left: 3vw;
+    margin-top: 6vh;
+    padding: 0.5vw;
+    width: 5vw;
+    white-space: nowrap;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5vw;
+    font-size: 1vw;
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+    padding-left: 1vw;
+    padding-right: 1.5vw;
+}
+
+.part1>span:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    cursor: pointer;
+}
+
+.part1>img {
+    margin-left: 3vw;
+    margin-top: 5vh;
+    width: 4vw;
+    height: 5vh;
+}
+
+.part1>h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 3vw;
+    font-size: 2vw;
+    text-transform: uppercase;
+}
+
+.part1>p {
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 3vw;
+    margin-right: 6vw;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 1vw;
+}
+
+.part2 {
+    display: block;
+    position: fixed;
+    background-color: hsl(184, 100%, 22%);
+    width: 18vw;
+    height: 60vh;
+    margin-left: 18vw;
+    min-height: 465px;
+}
+
+.part2>span {
+    font-family: 'Lexend Deca', sans-serif;
+    display: block;
+    margin-left: 3vw;
+    margin-top: 6vh;
+    padding: 0.5vw;
+    width: 5vw;
+    white-space: nowrap;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5vw;
+    font-size: 1vw;
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+    padding-left: 1vw;
+    padding-right: 1.5vw;
+}
+
+.part2>span:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    cursor: pointer;
+}
+
+.part2>img {
+    margin-left: 3vw;
+    margin-top: 5vh;
+    width: 4vw;
+    height: 5vh;
+}
+
+.part2>h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 3vw;
+    font-size: 2vw;
+    text-transform: uppercase;
+}
+
+.part2>p {
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 3vw;
+    margin-right: 6vw;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 1vw;
+}
+
+.part3 {
+    display: block;
+    position: fixed;
+    background-color: hsl(179, 100%, 13%);
+    width: 18vw;
+    height: 60vh;
+    margin-left: 36vw;
+    min-height: 465px;
+    border-top-right-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+}
+
+.part3>span {
+    font-family: 'Lexend Deca', sans-serif;
+    display: block;
+    margin-left: 3vw;
+    margin-top: 6vh;
+    padding: 0.5vw;
+    width: 5vw;
+    white-space: nowrap;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5vw;
+    font-size: 1vw;
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    padding-left: 1vw;
+    padding-right: 1.5vw;
+}
+
+.part3>span:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    cursor: pointer;
+}
+
+.part3>img {
+    margin-left: 3vw;
+    margin-top: 5vh;
+    width: 4vw;
+    height: 5vh;
+}
+
+.part3>h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 3vw;
+    font-size: 2vw;
+    text-transform: uppercase;
+}
+
+.part3>p {
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 3vw;
+    margin-right: 6vw;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 1vw;
+}
+
+@media screen and (max-width: 1500px) {
+    .box {
+        max-height: 100px;
+    }
+    .part1 {
+        max-height: 100px;
+    }
+    .part2 {
+        max-height: 100px;
+    }
+    .part3 {
+        max-height: 100px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .box {
+        height: 500vh;
+        width: 60vw;
+        left: 48%;
+        top: 35%;
+        border-top-left-radius: 1vw;
+        border-top-right-radius: 1vw;
+    }
+    .part1 {
+        position: relative;
+        min-height: none;
+        max-height: none;
+        height: 55vh;
+        width: 60vw;
+        border-top-left-radius: 1vw;
+        border-top-right-radius: 1vw;
+    }
+    .part1>img {
+        width: 10vw;
+        height: 6vh;
+    }
+    .part1>h1 {
+        margin-top: 3vh;
+        font-size: 6vw;
+    }
+    .part1>p {
+        font-size: 2.5vw;
+        margin-right: 15vw;
+    }
+    .part1>span {
+        font-size: 1.5vw;
+        padding-right: 6vw;
+        padding-left: 3vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        border-radius: 10vw;
+    }
+    .part2 {
+        position: relative;
+        min-height: 560px;
+        max-height: 800px;
+        max-height: 100px;
+        margin-top: 0vh;
+        margin-left: 0vw;
+        height: 55vh;
+        width: 60vw;
+    }
+    .part2>img {
+        width: 10vw;
+        height: 6vh;
+    }
+    .part2>h1 {
+        margin-top: 3vh;
+        font-size: 6vw;
+    }
+    .part2>p {
+        font-size: 2.5vw;
+        margin-right: 15vw;
+    }
+    .part2>span {
+        font-size: 1.5vw;
+        padding-right: 6vw;
+        padding-left: 3vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        border-radius: 10vw;
+    }
+    .part3 {
+        min-height: 625px;
+        max-height: 600px;
+        position: relative;
+        max-height: 100px;
+        margin-top: 0vh;
+        margin-left: 0vw;
+        height: 60vh;
+        width: 60vw;
+    }
+    .part3>img {
+        width: 10vw;
+        height: 6vh;
+    }
+    .part3>h1 {
+        margin-top: 3vh;
+        font-size: 6vw;
+    }
+    .part3>p {
+        font-size: 2.5vw;
+        margin-right: 15vw;
+    }
+    .part3>span {
+        font-size: 1.5vw;
+        padding-right: 6vw;
+        padding-left: 3vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        border-radius: 10vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+        height: 190vh;
+        width: 80vw;
+        left: 38%;
+        top: 35%;
+    }
+    .part1 {
+        position: relative;
+        min-height: none;
+        max-height: none;
+        height: 65vh;
+        width: 80vw;
+    }
+    .part1>img {
+        width: 20vw;
+        height: 6vh;
+    }
+    .part1>h1 {
+        margin-top: 3vh;
+        font-size: 8vw;
+    }
+    .part1>p {
+        font-size: 4vw;
+        margin-right: 15vw;
+    }
+    .part1>span {
+        font-size: 4vw;
+        padding-right: 23vw;
+        padding-left: 3vw;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        border-radius: 15vw;
+    }
+    .part2 {
+        position: relative;
+        min-height: 625px;
+        max-height: 600px;
+        max-height: 100px;
+        margin-top: 0vh;
+        margin-left: 0vw;
+        height: 80vh;
+        width: 80vw;
+    }
+    .part2>img {
+        width: 20vw;
+        height: 6vh;
+    }
+    .part2>h1 {
+        margin-top: 3vh;
+        font-size: 8vw;
+    }
+    .part2>p {
+        font-size: 4vw;
+        margin-right: 15vw;
+    }
+    .part2>span {
+        font-size: 4vw;
+        padding-right: 23vw;
+        padding-left: 3vw;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        border-radius: 15vw;
+    }
+    .part3 {
+        min-height: 625px;
+        max-height: 600px;
+        position: relative;
+        max-height: 100px;
+        margin-top: 0vh;
+        margin-left: 0vw;
+        height: 70vh;
+        width: 80vw;
+    }
+    .part3>img {
+        width: 20vw;
+        height: 6vh;
+    }
+    .part3>h1 {
+        margin-top: 3vh;
+        font-size: 8vw;
+    }
+    .part3>p {
+        font-size: 4vw;
+        margin-right: 15vw;
+    }
+    .part3>span {
+        font-size: 4vw;
+        padding-right: 23vw;
+        padding-left: 3vw;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        border-radius: 15vw;
+    }
+}
